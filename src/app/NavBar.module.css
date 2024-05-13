@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+}
+
+.navItem {
+    margin-right: 20px;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navLink:hover {
+    color: #f0f0f0;
+}
+
+.loginButton {
+    border: 2px solid white;
+    border-radius: 50%;
+    /* Makes the button circular */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.loginButton:hover {
+    background-color: white;
+    color: #333;
+}
